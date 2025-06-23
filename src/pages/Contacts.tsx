@@ -19,14 +19,14 @@ const Contacts = () => {
                 <Icon
                   name="Server"
                   size={24}
-                  className="inline mr-2 text-emerald-400"
+                  className="inline mr-2 text-sunshine-400"
                 />
                 Информация о сервере
               </h2>
 
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
-                  <Icon name="Globe" size={20} className="text-emerald-400" />
+                  <Icon name="Globe" size={20} className="text-sunshine-400" />
                   <div>
                     <p className="text-white font-semibold">IP адрес</p>
                     <p className="text-gray-300">wellworld.ru:25565</p>
@@ -34,7 +34,7 @@ const Contacts = () => {
                 </div>
 
                 <div className="flex items-center space-x-3">
-                  <Icon name="Users" size={20} className="text-emerald-400" />
+                  <Icon name="Users" size={20} className="text-sunshine-400" />
                   <div>
                     <p className="text-white font-semibold">Онлайн</p>
                     <p className="text-gray-300">24/7, до 1000 игроков</p>
@@ -45,7 +45,7 @@ const Contacts = () => {
                   <Icon
                     name="Gamepad2"
                     size={20}
-                    className="text-emerald-400"
+                    className="text-sunshine-400"
                   />
                   <div>
                     <p className="text-white font-semibold">Версии</p>
@@ -54,7 +54,7 @@ const Contacts = () => {
                 </div>
 
                 <div className="flex items-center space-x-3">
-                  <Icon name="Shield" size={20} className="text-emerald-400" />
+                  <Icon name="Shield" size={20} className="text-sunshine-400" />
                   <div>
                     <p className="text-white font-semibold">Режим</p>
                     <p className="text-gray-300">Гриф, выживание</p>
@@ -68,7 +68,7 @@ const Contacts = () => {
                 <Icon
                   name="MessageCircle"
                   size={24}
-                  className="inline mr-2 text-emerald-400"
+                  className="inline mr-2 text-sunshine-400"
                 />
                 Связь с нами
               </h2>
@@ -78,7 +78,7 @@ const Contacts = () => {
                   <Icon
                     name="MessageSquare"
                     size={20}
-                    className="text-emerald-400"
+                    className="text-sunshine-400"
                   />
                   <div>
                     <p className="text-white font-semibold">Discord</p>
@@ -87,7 +87,7 @@ const Contacts = () => {
                 </div>
 
                 <div className="flex items-center space-x-3">
-                  <Icon name="Send" size={20} className="text-emerald-400" />
+                  <Icon name="Send" size={20} className="text-sunshine-400" />
                   <div>
                     <p className="text-white font-semibold">Telegram</p>
                     <p className="text-gray-300">@wellworld_support</p>
@@ -95,7 +95,7 @@ const Contacts = () => {
                 </div>
 
                 <div className="flex items-center space-x-3">
-                  <Icon name="Mail" size={20} className="text-emerald-400" />
+                  <Icon name="Mail" size={20} className="text-sunshine-400" />
                   <div>
                     <p className="text-white font-semibold">Email</p>
                     <p className="text-gray-300">admin@wellworld.ru</p>
@@ -103,7 +103,7 @@ const Contacts = () => {
                 </div>
 
                 <div className="flex items-center space-x-3">
-                  <Icon name="Clock" size={20} className="text-emerald-400" />
+                  <Icon name="Clock" size={20} className="text-sunshine-400" />
                   <div>
                     <p className="text-white font-semibold">Время ответа</p>
                     <p className="text-gray-300">До 24 часов</p>
@@ -118,7 +118,7 @@ const Contacts = () => {
               <Icon
                 name="HelpCircle"
                 size={24}
-                className="inline mr-2 text-emerald-400"
+                className="inline mr-2 text-sunshine-400"
               />
               Часто задаваемые вопросы
             </h2>

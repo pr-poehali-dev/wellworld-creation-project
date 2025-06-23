@@ -58,12 +58,12 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="mb-8">
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 font-montserrat">
-              <span className="text-emerald-400">Well</span>World
+              <span className="text-sunshine-400">Well</span>World
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-2">
               Лучший гриф-сервер Minecraft
             </p>
-            <p className="text-emerald-400 font-semibold">
+            <p className="text-sunshine-400 font-semibold">
               🎯 Копия ReallyWorld • 🌍 IP: wellworld.ru
             </p>
           </div>
@@ -73,7 +73,7 @@ const Index = () => {
               <Icon
                 name="Users"
                 size={32}
-                className="text-emerald-400 mx-auto mb-4"
+                className="text-sunshine-400 mx-auto mb-4"
               />
               <h3 className="text-xl font-bold text-white mb-2">
                 1000+ игроков
@@ -85,7 +85,7 @@ const Index = () => {
               <Icon
                 name="Clock"
                 size={32}
-                className="text-emerald-400 mx-auto mb-4"
+                className="text-sunshine-400 mx-auto mb-4"
               />
               <h3 className="text-xl font-bold text-white mb-2">24/7 онлайн</h3>
               <p className="text-gray-300">Стабильная работа</p>
@@ -95,7 +95,7 @@ const Index = () => {
               <Icon
                 name="Shield"
                 size={32}
-                className="text-emerald-400 mx-auto mb-4"
+                className="text-sunshine-400 mx-auto mb-4"
               />
               <h3 className="text-xl font-bold text-white mb-2">
                 Защита от читов
@@ -106,7 +106,7 @@ const Index = () => {
 
           <Link
             to="/catalog"
-            className="inline-flex items-center bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors"
+            className="inline-flex items-center bg-sunshine-500 hover:bg-sunshine-600 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors"
           >
             <Icon name="ShoppingBag" size={24} className="mr-2" />
             Купить донат
@@ -135,7 +135,7 @@ const Index = () => {
           <div className="text-center">
             <Link
               to="/catalog"
-              className="inline-flex items-center text-emerald-400 hover:text-emerald-300 font-semibold"
+              className="inline-flex items-center text-sunshine-400 hover:text-sunshine-300 font-semibold"
             >
               Посмотреть все товары
               <Icon name="ArrowRight" size={20} className="ml-2" />
@@ -154,7 +154,7 @@ const Index = () => {
       {/* Server Info */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="bg-gradient-to-r from-emerald-500/10 to-blue-500/10 rounded-2xl p-8 border border-emerald-500/20">
+          <div className="bg-gradient-to-r from-sunshine-500/10 to-sunset-500/10 rounded-2xl p-8 border border-sunshine-500/20">
             <div className="text-center mb-8">
               <h2 className="text-3xl font-bold text-white mb-4">
                 Присоединяйся к WellWorld!
@@ -167,7 +167,7 @@ const Index = () => {
             <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8">
               <div className="bg-slate-800 rounded-lg p-4 border border-slate-600">
                 <div className="flex items-center space-x-3">
-                  <Icon name="Server" size={24} className="text-emerald-400" />
+                  <Icon name="Server" size={24} className="text-sunshine-400" />
                   <div>
                     <p className="text-sm text-gray-400">IP адрес сервера</p>
                     <p className="text-lg font-mono text-white">wellworld.ru</p>
@@ -180,7 +180,7 @@ const Index = () => {
                   <Icon
                     name="Gamepad2"
                     size={24}
-                    className="text-emerald-400"
+                    className="text-sunshine-400"
                   />
                   <div>
                     <p className="text-sm text-gray-400">Версии</p>

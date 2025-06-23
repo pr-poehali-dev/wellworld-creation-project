@@ -31,24 +31,24 @@ const ProductCard = ({
     <div
       className={`relative bg-slate-800 rounded-xl p-6 border transition-all hover:scale-105 ${
         popular
-          ? "border-amber-500 shadow-amber-500/20 shadow-lg"
-          : "border-slate-700 hover:border-emerald-500/50"
+          ? "border-sunset-500 shadow-sunset-500/20 shadow-lg"
+          : "border-slate-700 hover:border-sunshine-500/50"
       }`}
     >
       {popular && (
         <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-          <span className="bg-amber-500 text-black px-4 py-1 rounded-full text-sm font-bold">
+          <span className="bg-sunset-500 text-white px-4 py-1 rounded-full text-sm font-bold">
             ⭐ Популярный
           </span>
         </div>
       )}
 
       <div className="text-center mb-4">
-        <div className="w-16 h-16 bg-emerald-500/20 rounded-full flex items-center justify-center mx-auto mb-3">
-          <Icon name="Crown" size={32} className="text-emerald-400" />
+        <div className="w-16 h-16 bg-sunshine-500/20 rounded-full flex items-center justify-center mx-auto mb-3">
+          <Icon name="Crown" size={32} className="text-sunshine-400" />
         </div>
         <h3 className="text-xl font-bold text-white mb-2">{name}</h3>
-        <div className="text-3xl font-bold text-emerald-400 mb-2">
+        <div className="text-3xl font-bold text-sunshine-400 mb-2">
           {price} <span className="text-lg">{currency}</span>
         </div>
       </div>
@@ -61,7 +61,7 @@ const ProductCard = ({
             <Icon
               name="Check"
               size={16}
-              className="text-emerald-400 mr-2 flex-shrink-0"
+              className="text-sunshine-400 mr-2 flex-shrink-0"
             />
             <span className="text-sm">{feature}</span>
           </li>
@@ -72,8 +72,8 @@ const ProductCard = ({
         onClick={handleAddToCart}
         className={`w-full py-3 rounded-lg font-semibold transition-all ${
           isAdded
-            ? "bg-emerald-600 text-white"
-            : "bg-emerald-500 hover:bg-emerald-600 text-white"
+            ? "bg-sunshine-600 text-white"
+            : "bg-sunshine-500 hover:bg-sunshine-600 text-white"
         }`}
       >
         {isAdded ? (

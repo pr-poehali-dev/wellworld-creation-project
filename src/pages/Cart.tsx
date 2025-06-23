@@ -48,18 +48,18 @@ const Cart = () => {
                       className="flex items-center justify-between p-4 bg-slate-700 rounded-lg"
                     >
                       <div className="flex items-center space-x-4">
-                        <div className="w-12 h-12 bg-emerald-500/20 rounded-lg flex items-center justify-center">
+                        <div className="w-12 h-12 bg-sunshine-500/20 rounded-lg flex items-center justify-center">
                           <Icon
                             name="Crown"
                             size={20}
-                            className="text-emerald-400"
+                            className="text-sunshine-400"
                           />
                         </div>
                         <div>
                           <h3 className="font-semibold text-white">
                             {item.name}
                           </h3>
-                          <p className="text-emerald-400">
+                          <p className="text-sunshine-400">
                             {item.price} {item.currency}
                           </p>
                         </div>
@@ -119,11 +119,11 @@ const Cart = () => {
               <div className="border-t border-slate-600 pt-4 mb-6">
                 <div className="flex justify-between text-xl font-bold text-white">
                   <span>Общая сумма:</span>
-                  <span className="text-emerald-400">{total} ₽</span>
+                  <span className="text-sunshine-400">{total} ₽</span>
                 </div>
               </div>
 
-              <button className="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-3 rounded-lg transition-colors">
+              <button className="w-full bg-sunshine-500 hover:bg-sunshine-600 text-white font-semibold py-3 rounded-lg transition-colors">
                 Перейти к оплате
               </button>
             </div>

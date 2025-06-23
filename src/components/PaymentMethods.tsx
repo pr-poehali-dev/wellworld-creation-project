@@ -40,7 +40,7 @@ const PaymentMethods = () => {
         <Icon
           name="Shield"
           size={24}
-          className="inline mr-2 text-emerald-400"
+          className="inline mr-2 text-sunshine-400"
         />
         Способы оплаты
       </h3>
@@ -49,20 +49,20 @@ const PaymentMethods = () => {
         {paymentMethods.map((method, index) => (
           <div
             key={index}
-            className="bg-slate-700 rounded-lg p-4 border border-slate-600 hover:border-emerald-500/50 transition-colors"
+            className="bg-slate-700 rounded-lg p-4 border border-slate-600 hover:border-sunshine-500/50 transition-colors"
           >
             <div className="flex items-center mb-2">
               <Icon
                 name={method.icon as any}
                 size={20}
-                className="text-emerald-400 mr-2"
+                className="text-sunshine-400 mr-2"
               />
               <h4 className="font-semibold text-white">{method.title}</h4>
               {method.available && (
                 <Icon
                   name="CheckCircle"
                   size={16}
-                  className="text-emerald-400 ml-auto"
+                  className="text-sunshine-400 ml-auto"
                 />
               )}
             </div>
@@ -71,8 +71,8 @@ const PaymentMethods = () => {
         ))}
       </div>
 
-      <div className="mt-6 p-4 bg-emerald-500/10 border border-emerald-500/20 rounded-lg">
-        <div className="flex items-center text-emerald-400 mb-2">
+      <div className="mt-6 p-4 bg-sunshine-500/10 border border-sunshine-500/20 rounded-lg">
+        <div className="flex items-center text-sunshine-400 mb-2">
           <Icon name="Lock" size={16} className="mr-2" />
           <span className="font-semibold">Безопасные платежи</span>
         </div>

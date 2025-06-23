@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <div className="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-sunshine-500 rounded-lg flex items-center justify-center">
                 <Icon name="Pickaxe" size={20} className="text-white" />
               </div>
               <span className="text-xl font-bold text-white">WellWorld</span>
@@ -21,17 +21,17 @@ const Footer = () => {
               <Icon
                 name="MessageCircle"
                 size={20}
-                className="text-gray-400 hover:text-emerald-400 cursor-pointer"
+                className="text-gray-400 hover:text-sunshine-400 cursor-pointer"
               />
               <Icon
                 name="Users"
                 size={20}
-                className="text-gray-400 hover:text-emerald-400 cursor-pointer"
+                className="text-gray-400 hover:text-sunshine-400 cursor-pointer"
               />
               <Icon
                 name="Youtube"
                 size={20}
-                className="text-gray-400 hover:text-emerald-400 cursor-pointer"
+                className="text-gray-400 hover:text-sunshine-400 cursor-pointer"
               />
             </div>
           </div>
@@ -40,14 +40,14 @@ const Footer = () => {
             <h4 className="text-white font-semibold mb-4">Навигация</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-gray-400 hover:text-emerald-400">
+                <Link to="/" className="text-gray-400 hover:text-sunshine-400">
                   Главная
                 </Link>
               </li>
               <li>
                 <Link
                   to="/catalog"
-                  className="text-gray-400 hover:text-emerald-400"
+                  className="text-gray-400 hover:text-sunshine-400"
                 >
                   Каталог
                 </Link>
@@ -55,7 +55,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/cart"
-                  className="text-gray-400 hover:text-emerald-400"
+                  className="text-gray-400 hover:text-sunshine-400"
                 >
                   Корзина
                 </Link>
@@ -63,7 +63,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/contacts"
-                  className="text-gray-400 hover:text-emerald-400"
+                  className="text-gray-400 hover:text-sunshine-400"
                 >
                   Контакты
                 </Link>
